@@ -1,0 +1,8 @@
+<view class="swiper">
+    <!-- swiper组件 -->
+    <swiper indicator-dots="true" autoplay="true"  circular="true" easing-function="linear">
+        <swiper-item wx:for="{{imgs}}" wx:key="item">
+            <image src="{{item.imgUrl}}" bindtap="show" data-type="{{item.imgUrl}}"></image>
+        </swiper-item>
+    </swiper>
+</view>

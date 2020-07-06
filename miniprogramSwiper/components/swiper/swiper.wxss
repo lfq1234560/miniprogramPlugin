@@ -1,0 +1,12 @@
+/* swiper组件样式 */
+.swiper swiper{
+    background: yellow;
+    height: 500rpx;
+}
+.swiper swiper-item{
+    height: 100%;
+}
+.swiper image{
+    width: 100%;
+    height: 100%;
+}

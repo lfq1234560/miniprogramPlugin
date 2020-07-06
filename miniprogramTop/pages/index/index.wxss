@@ -1,0 +1,6 @@
+/* 按钮 */
+.home .btn{
+    padding-top: 250rpx;
+    height: 50rpx;
+    margin-bottom: 50rpx;
+}

@@ -1,0 +1,4 @@
+<view class="log">
+    <!-- 导航 -->
+    <nav-top title="日志页" boxShadow="0" sjx="1"></nav-top>
+</view>

@@ -1,0 +1,7 @@
+<view class="navTop" style="padding-top:{{paddingTop}};box-shadow:{{boxShadow==='1'?'0rpx 1rpx 5rpx #d4d2d3':''}}">
+    <view class="con">
+        <view class="title">{{title}}</view>
+        <view class="sonTitle">卢富强做的自定义导航</view>
+        <text bindtap="back" wx:if="{{sjx==='1'?true:false}}"></text>
+    </view>
+</view>

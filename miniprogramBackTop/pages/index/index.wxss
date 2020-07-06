@@ -1,0 +1,15 @@
+
+/* 内容区 */
+.home .content{
+    height: 1500rpx;
+    background-color: blueviolet;
+}
+/* 回到顶部 */
+.home .backTop{
+    width: 100rpx;
+    height: 100rpx;
+    background-color: yellowgreen;
+    border-radius: 20rpx;
+    position: fixed;
+    right: 0;
+}

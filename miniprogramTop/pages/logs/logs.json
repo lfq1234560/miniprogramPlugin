@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "nav-top": "../../components/navTop/navTop"
+  }
+}

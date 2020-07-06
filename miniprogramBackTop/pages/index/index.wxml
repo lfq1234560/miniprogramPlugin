@@ -1,0 +1,6 @@
+<view class="home">
+    <!--内容区 -->
+    <view class="content"></view>
+    <!-- 回到顶部 -->
+    <view class="backTop" style="top:{{top}}" bindtap="goTop"></view>
+</view>

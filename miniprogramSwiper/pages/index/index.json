@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+      "swiper-com":"../../components/swiper/swiper"
+  },
+  "navigationBarTitleText":"首页",
+  "navigationBarTextStyle":"black"
+}
