@@ -1,6 +1,0 @@
-<view class="home">
-     <!-- 导航 -->
-    <nav-top title="首页" boxShadow="1" sjx="0"></nav-top>
-    <!-- 按钮 -->
-    <view class="btn"><button bindtap="go">home</button></view>
-</view>
