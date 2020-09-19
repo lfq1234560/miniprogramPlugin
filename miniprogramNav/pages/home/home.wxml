@@ -1,0 +1,7 @@
+<view class="home">
+<!-- 导航栏 -->
+    <navigator background="red" title-color="#000" set-title="首页" is-show-back="{{false}}">
+    </navigator>
+    <!-- 按钮 -->
+    <button bindtap="go" class="btn">按钮</button>
+</view>

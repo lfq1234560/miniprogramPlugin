@@ -1,0 +1,5 @@
+<view class="list">
+   <!-- 导航栏 -->
+    <navigator background="red"  title-color="#000" set-title="列表" is-show-back="{{true}}">
+    </navigator>
+</view>

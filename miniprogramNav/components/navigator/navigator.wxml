@@ -1,0 +1,10 @@
+<!-- 自定义导航栏 -->
+<view class="outside-box">
+	<view class="empty-box" style="height:{{height}}px;background:{{background}}"></view>
+	<view class="navigator" style="height:{{height}}px;width:100%">
+		<view class="title" style="margin-top:{{paddingTop}}px;height:{{titleHeight}}px;line-height:{{titleHeight}}px;color:{{titleColor}}">
+			{{setTitle}}
+			<view class="back" wx:if="{{isShowBack}}" bindtap="back"></view>
+		</view>
+	</view>
+</view>
