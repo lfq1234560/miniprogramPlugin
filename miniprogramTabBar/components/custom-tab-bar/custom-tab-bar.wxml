@@ -1,0 +1,6 @@
+<view class="custom-tab-bar">
+    <view bindtap="switch" style="color:{{index===selectIndex?'red':'#000'}}" class="con" wx:for="{{tabBar}}"  data-index="{{index}}"  wx:key="text">
+        <image class="img"  src="{{index===selectIndex?item.selectIconPath:item.iconPath}}"></image>
+        <text class="text">{{item.text}}</text>
+    </view>
+</view>

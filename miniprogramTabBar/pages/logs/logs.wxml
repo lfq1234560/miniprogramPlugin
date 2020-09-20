@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view class="log">
+	日志页
+	<!-- 自定义tabBar -->
+	<custom-tab-bar index="{{1}}"></custom-tab-bar>
+</view>

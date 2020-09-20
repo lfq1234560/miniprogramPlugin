@@ -1,0 +1,5 @@
+<view class="home">
+	首页
+	<!-- 自定义tabBar -->
+	<custom-tab-bar index="{{0}}"></custom-tab-bar>
+</view>
