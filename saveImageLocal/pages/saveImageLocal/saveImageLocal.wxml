@@ -1,0 +1,5 @@
+
+<view class="save-iamge">
+  <image  src="https://cdn.xiaolouyou.com/beautiful_getcode.png"  alt=""></image>
+  <button bindtap="saveImage" style="margin-bottom:10rpx">点击保存</button>
+</view>
