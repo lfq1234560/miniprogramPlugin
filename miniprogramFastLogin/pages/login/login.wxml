@@ -1,0 +1,7 @@
+<view class="login">
+  <button  wx:if="{{isBtn}}" open-type="getUserInfo" bindgetuserinfo="getuserinfo">请登录</button>
+  <!-- 底部弹出窗口 -->
+  <view class="fastLogin" wx:if="{{isFastLogin}}">
+    <button open-type="getPhoneNumber" bindgetphonenumber="getphonenumber">获取手机号登录</button>
+  </view>
+</view>
