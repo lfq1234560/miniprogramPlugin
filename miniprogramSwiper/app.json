@@ -1,10 +1,9 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/swiper1/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#333"
-  }
-
+  },
+  "sitemapLocation": "sitemap53.json"
 }

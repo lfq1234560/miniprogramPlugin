@@ -1,0 +1,17 @@
+<view>
+  <!-- 弹幕 -->
+  <swiper class="swiper" interval="{{2000}}" display-multiple-items="{{4}}" circular="{{true}}" vertical="{{true}}" autoplay="{{true}}">
+    <swiper-item class="blank"></swiper-item>
+    <swiper-item class="blank"></swiper-item>
+    <swiper-item class="blank"></swiper-item>
+    <swiper-item class="blank"></swiper-item>
+    <swiper-item  wx:for="{{barrage}}" wx:key="id" class="item">
+      <view class="barrage">{{item.con}}</view>
+    </swiper-item>
+  </swiper>
+  <!-- 添加弹幕 -->
+  <view class="add-barrage">
+    <input class="input"  bindblur="getCon" type="text"/>
+    <button bindtap="sendBarrage" class="btn">发送</button>
+  </view>
+</view>

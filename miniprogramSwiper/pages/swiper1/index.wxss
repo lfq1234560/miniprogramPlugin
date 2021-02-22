@@ -1,0 +1,35 @@
+/* 弹幕 */
+.swiper{
+  height: 300rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+
+.swiper .item {
+  height: 100%;
+  position: relative;
+}
+.item .barrage{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+/* 添加弹幕 */
+.add-barrage{
+  display: flex;
+  margin-top: 20rpx;
+}
+.input{
+  width: 50%;
+  height: 100rpx;
+  border: 2rpx solid #ccc;
+  box-sizing: border-box;
+  margin-right: 10rpx;
+}
+.btn{
+  margin: 0;
+  width: 30%;
+  height: 100rpx;
+}
+
+

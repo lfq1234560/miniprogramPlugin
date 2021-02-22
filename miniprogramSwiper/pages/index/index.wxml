@@ -1,4 +1,0 @@
-<view class="home">
-    <!-- 轮播图展示 -->
-    <swiper-com imgs="{{imgs}}"></swiper-com>
-</view>
